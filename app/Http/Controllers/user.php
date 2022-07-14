@@ -9,7 +9,8 @@ class user extends Controller
     public function withoutname()
     {
         // echo "$name";
-        echo " Hello From Controller's function :) ";
+        // echo " Hello From Controller's function :) ";
+        return view('a');
     }
     public function withname($name)
     {
